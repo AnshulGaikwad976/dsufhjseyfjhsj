@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>strings</title>
+</head>
+<body>
+    <h1 id="search"></h1>
+    <h1 id="replace"></h1>
+    <h1 id="string"></h1>
+
+    <script>
+
+        var sentence= "i love to hear music"
+
+        var position= sentence.search("music")
+        document.getElementById("search").innerHTML=position
+
+        var newsntence=sentence.replace("love" , "hate")
+         document.getElementById("replace").innerHTML = newsntence
+
+
+         var x= 10
+         var y= 20
+
+         var result = String(x) + String(y)
+          document.getElementById("string").innerHTML = result
+
+    </script>
+</body>
+</html>
